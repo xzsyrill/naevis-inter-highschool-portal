@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$user = 'root';
-$pass = '';
-$dbname = 'naevis_inter_high_db';
+$host = "sql105.infinityfree.com";
+$user = "if0_42031254";
+$pass = "Ningyizhuo29";
+$dbname = "if0_42031254_schoolportal";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 if ($conn->connect_error) {
